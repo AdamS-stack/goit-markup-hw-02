@@ -20,7 +20,6 @@
 .body {
     font-family: "Roboto", sans-serif;
     color: var(--color-text2);
-    background-color: red;
 }
 .header {
     display: flex;
