@@ -1,544 +1,582 @@
 :root {
-  --background-color: #ffffff;
-  --color-text1: #757575;
-  --color-text2: #212121;
-  --color-text3: #2196f3;
-  --color-text4: #000000;
-  --color-text5: #ffffff;
-  --background-color1: #2f303a;
-  --color-shadow: rgba(0, 0, 0, 0.15);
-  --color-shadow1: rgba(0, 0, 0, 0.12);
-  --color-shadow2: rgba(0, 0, 0, 0.14);
-  --color-shadow3: rgba(0, 0, 0, 0.2);
-  --background-color2: #2f303a;
-  --background-color3: #e5e5e5;
-  --color-text6: rgba(255, 255, 255, 0.6);
-  --border-color: #ececec;
-  --background-color4: #f5f4fa;
-  --border-color1: #eeeeee;
+    --background-color: #ffffff;
+    --color-text1: #757575;
+    --color-text2: #212121;
+    --color-text3: #2196f3;
+    --color-text4: #000000;
+    --color-text5: #ffffff;
+    --background-color1: #2f303a;
+    --color-shadow: rgba(0, 0, 0, 0.15);
+    --color-shadow1: rgba(0, 0, 0, 0.12);
+    --color-shadow2: rgba(0, 0, 0, 0.14);
+    --color-shadow3: rgba(0, 0, 0, 0.2);
+    --background-color2: #2f303a;
+    --background-color3: #e5e5e5;
+    --color-text6: rgba(255, 255, 255, 0.6);
+    --border-color: #ececec;
+    --background-color4: #f5f4fa;
+    --border-color1: #eeeeee;
 }
 .body {
-  font-family: "Roboto", sans-serif;
-  color: var(--color-text2);
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text2);
+    background-color: red;
 }
 .header {
-  display: flex;
-  width: 1600px;
-  height: 80px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-block-end: 0;
-  padding-block-start: 0;
-  background-color: var(--background-color);
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-block-end: 0;
+    padding-block-start: 0;
+    background-color: var(--background-color);
 }
 
 .header-portfolio {
-  display: flex;
-  width: 1600px;
-  height: 80px;
-  margin-left: 0px;
-  margin-top: 0px;
-  background-color: var(--background-color);
-  border: 1px solid var(--border-color);
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
 }
 
 .main-portfolio {
-  width: 572px;
-  height: 54px;
-  margin-left: 510px;
-  margin-top: 174px;
-  padding-top: 30px;
-  display: flex;
-  list-style: none;
-  background-color: var(--background-color);
-  margin-block-start: 0;
+    width: 572px;
+    height: 54px;
+    margin-left: 510px;
+    margin-top: 174px;
+    padding-top: 30px;
+    display: flex;
+    list-style: none;
+    background-color: var(--background-color);
+    margin-block-start: 0;
 }
 .item-portfolio {
-  text-decoration: none;
-  color: var(--color-text2);
-  margin-top: 50px;
-  background-color: var(--background-color4);
+    text-decoration: none;
+    color: var(--color-text2);
+    margin-top: 50px;
+    background-color: var(--background-color4);
 }
 
 .nav-all {
-  margin-left: 10px;
-  padding-left: 20px;
-  padding-bottom: 15px;
-  padding-top: 10px;
-  padding-right: 15px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: var(--background-color4);
-  color: var(--color-text2);
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-color4);
+    color: var(--color-text2);
 }
 .nav-all:hover {
-  background-color: var(--color-text3);
-  color: var(--color-text5);
+    background-color: var(--color-text3);
+    color: var(--color-text5);
 }
 
 .nav-pages {
-  margin-left: 10px;
-  padding-left: 20px;
-  padding-bottom: 15px;
-  padding-top: 10px;
-  padding-right: 15px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: var(--background-color4);
-  color: var(--color-text2);
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-color4);
+    color: var(--color-text2);
+}
+.nav-pages:hover {
+    background-color: var(--color-text3);
+    color: var(--color-text5);
 }
 .nav-aplications {
-  margin-left: 10px;
-  padding-left: 20px;
-  padding-bottom: 15px;
-  padding-top: 10px;
-  padding-right: 15px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  padding-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    padding-top: 10px;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: var(--background-color4);
-  color: var(--color-text2);
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-color4);
+    color: var(--color-text2);
+}
+.nav-aplications:hover {
+    background-color: var(--color-text3);
+    color: var(--color-text5);
 }
 .nav-design {
-  margin-left: 10px;
-  padding-left: 20px;
-  padding-bottom: 15px;
-  padding-top: 10px;
-  padding-right: 15px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: var(--background-color4);
-  color: var(--color-text2);
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-color4);
+    color: var(--color-text2);
+}
+.nav-design:hover {
+    background-color: var(--color-text3);
+    color: var(--color-text5);
 }
 .nav-marketing {
-  margin-left: 10px;
-  padding-left: 20px;
-  padding-bottom: 15px;
-  padding-top: 10px;
-  padding-right: 15px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: var(--background-color4);
-  color: var(--color-text2);
-  width: 800px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-color4);
+    color: var(--color-text2);
+    width: 800px;
 }
-
+.nav-marketing:hover {
+    background-color: var(--color-text3);
+    color: var(--color-text5);
+}
 .menu {
-  list-style: none;
-  display: flex;
-  margin-bottom: 40px;
+    list-style: none;
+    display: flex;
+    margin-bottom: 40px;
 }
 .nav-link {
-  display: flex;
-  list-style: none;
-  height: 16px;
-  margin-left: 40px;
-  margin-top: 32px;
+    display: flex;
+    list-style: none;
+    height: 16px;
+    margin-left: 40px;
+    margin-top: 32px;
 }
 
 .contact-data {
-  display: flex;
-  list-style: none;
+    display: flex;
+    list-style: none;
 }
 .web-studio {
-  width: 145px;
-  height: 31px;
-  margin-left: 215px;
-  margin-top: 24px;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--color-text4);
+    width: 145px;
+    height: 31px;
+    margin-left: 215px;
+    margin-top: 24px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-text4);
 }
 .blue-color {
-  color: var(--color-text3);
+    color: var(--color-text3);
 }
 .agency {
-  width: 53px;
-  height: 16px;
-  margin-right: 10px;
-  margin-top: 15px;
+    width: 53px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-text2);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-text2);
 }
 
-.agency:hover {
-  color: var(--color-text3);
+.agency:visited {
+    color: var(--color-text3);
 }
 .agency-portfolio {
-  width: 53px;
-  height: 16px;
-  margin-right: 10px;
-  margin-top: 15px;
+    width: 53px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-text2);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-text2);
+}
+.agency-portfolio:hover {
+    color: var(--color-text3);
 }
 .portfolio {
-  margin-left: 30px;
-  margin-top: 15px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-text2);
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-text2);
 }
 .portfolio:visited {
-  color: var(--color-text3);
+    color: var(--color-text3);
 }
 .portfolio-nav {
-  margin-left: 30px;
-  margin-top: 15px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-text2);
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-text2);
+}
+.portfolio-nav:hover {
+    color: var(--color-text3);
 }
 .contact {
-  width: 51px;
-  height: 16px;
-  margin-right: 10px;
-  margin-top: 15px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--color-text2);
+    width: 51px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-text2);
+}
+.contact:hover {
+    color: var(--color-text3);
 }
 .mail {
-  width: 135px;
-  height: 16px;
-  margin-left: 400px;
-  margin-top: 15px;
+    width: 135px;
+    height: 16px;
+    margin-left: 400px;
+    margin-top: 15px;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .mail-link {
-  text-decoration: none;
+    text-decoration: none;
+    color: var(--color-text1);
 }
 .mail-link:hover {
-  color: var(--color-text3);
+    color: var(--color-text3);
 }
 .mail-portfolio {
-  color: var(--color-text1);
-  text-decoration: none;
+    color: var(--color-text1);
+    text-decoration: none;
+}
+.mail-portfolio:hover {
+    color: var(--color-text3);
 }
 .tel-portfolio {
-  color: var(--color-text1);
-  text-decoration: none;
+    color: var(--color-text1);
+    text-decoration: none;
+    cursor: pointer;
+}
+.tel-portfolio:hover {
+    color: var(--color-text3);
 }
 .tel {
-  width: 110px;
-  height: 16px;
-  margin-left: 40px;
-  margin-top: 15px;
+    width: 110px;
+    height: 16px;
+    margin-left: 40px;
+    margin-top: 15px;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--color-text1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text1);
+    cursor: pointer;
+}
+.tel:hover {
+    color: var(--color-text3);
 }
 .main-section {
-  width: 1601px;
-  height: 600px;
-  margin-block-end: 0;
-  padding-block-start: 0;
+    width: 1601px;
+    height: 600px;
+    margin-block-end: 0;
+    padding-block-start: 0;
 
-  background-color: var(--background-color2);
+    background-color: var(--background-color2);
 }
 .main-text {
-  width: 696px;
-  height: 120px;
-  margin-left: 452px;
-  padding-top: 200px;
-  margin-block-start: 0;
-  margin-block-end: 0;
+    width: 696px;
+    height: 120px;
+    margin-left: 452px;
+    padding-top: 200px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--color-text5);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text5);
 }
 .btn {
-  width: 200px;
-  height: 50px;
-  margin-left: 700px;
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
 
-  background-color: var(--color-text3);
-  box-shadow: 0px 4px 4px var(--color-shadow);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  margin-top: 30px;
+    background-color: var(--color-text3);
+    box-shadow: 0px 4px 4px var(--color-shadow);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    margin-top: 30px;
 
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--color-text5);
-  cursor: pointer;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--color-text5);
+    cursor: pointer;
 }
 .text-section {
-  width: 1170px;
-  height: 101px;
-  margin-left: 215px;
-  margin-top: 60px;
-  display: flex;
+    width: 1170px;
+    height: 101px;
+    margin-left: 215px;
+    margin-top: 60px;
+    display: flex;
 }
 .text-li {
-  list-style: none;
+    list-style: none;
 }
 .text-paragraph {
-  font-size: 14px;
-  line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 
-  letter-spacing: 0.03em;
-  color: var(--color-text1);
+    letter-spacing: 0.03em;
+    color: var(--color-text1);
 }
 .section-images {
-  width: 1170px;
-  height: 386px;
-  margin-left: 215px;
-  margin-top: 94px;
+    width: 1170px;
+    height: 386px;
+    margin-left: 215px;
+    margin-top: 94px;
 }
 
 .job-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .photo {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 .team {
-  width: 1475px;
-  height: 450px;
-  margin-top: 100px;
-  display: flex;
-  background-color: var(--background-color4);
-  padding: 0, 215px;
+    width: 1475px;
+    height: 450px;
+    margin-top: 100px;
+    display: flex;
+    background-color: var(--background-color4);
+    padding: 0, 215px;
 }
 .img {
-  width: 270px;
-  height: 260px;
+    width: 270px;
+    height: 260px;
 }
 
 .people {
-  box-shadow: 0px 1px 3px var(--color-shadow1), 0px 1px 1px var(--color-shadow2),
-    0px 2px 1px var(--color-shadow3);
-  border-radius: 0px 0px 4px 4px;
-  width: 270px;
+    box-shadow: 0px 1px 3px var(--color-shadow1),
+        0px 1px 1px var(--color-shadow2), 0px 2px 1px var(--color-shadow3);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
 
-  height: 368px;
+    height: 368px;
 }
 
 .people-top {
-  padding-top: 100px;
-  padding-left: 125px;
+    padding-top: 100px;
+    padding-left: 125px;
 }
 
 .header-two {
-  height: 42px;
-  margin-top: 80px;
-  margin-left: 80px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+    height: 42px;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .name {
-  height: 30px;
-  text-align: center;
-  margin-right: 40px;
+    height: 30px;
+    text-align: center;
+    margin-right: 40px;
 }
 .footer {
-  width: 1600px;
-  height: 252px;
-  margin-left: 0px;
-  background-color: var(--background-color1);
+    width: 1600px;
+    height: 252px;
+    margin-left: 0px;
+    background-color: var(--background-color1);
 }
 .logo-footer {
-  width: 145px;
-  height: 31px;
-  margin-left: 215px;
-  padding-top: 80px;
-  margin-top: 100px;
+    width: 145px;
+    height: 31px;
+    margin-left: 215px;
+    padding-top: 80px;
+    margin-top: 100px;
 
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 
-  letter-spacing: 0.03em;
-  text-decoration: none;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .blue-color {
-  color: var(--color-text3);
+    color: var(--color-text3);
 }
 
 .white-color {
-  color: var(--color-text5);
+    color: var(--color-text5);
 }
 .address {
-  width: 246px;
-  height: 21px;
-  margin-left: 171px;
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 20px;
+    width: 246px;
+    height: 21px;
+    margin-left: 171px;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 20px;
 
-  letter-spacing: 0.03em;
-  color: var(--color-text5);
-  margin-block-end: 0;
+    letter-spacing: 0.03em;
+    color: var(--color-text5);
+    margin-block-end: 0;
 }
 .mail-footer {
-  width: 231px;
-  height: 21px;
-  margin-left: 170px;
-  margin-top: 40px;
+    width: 231px;
+    height: 21px;
+    margin-left: 170px;
+    margin-top: 40px;
 
-  font-size: 14px;
-  line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 
-  letter-spacing: 0.03em;
-  color: var(--color-text6);
-  text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--color-text6);
+    text-decoration: none;
 }
 .mail-footer-portfolio {
-  width: 231px;
-  height: 21px;
-  margin-left: 130px;
-  margin-top: 40px;
+    width: 231px;
+    height: 21px;
+    margin-left: 130px;
+    margin-top: 40px;
 
-  font-size: 14px;
-  line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 
-  letter-spacing: 0.03em;
-  color: var(--color-text6);
-  text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--color-text6);
+    text-decoration: none;
 }
 .tel-footer {
-  width: 231px;
-  height: 21px;
-  margin-left: 170px;
-  margin-top: 160px;
+    width: 231px;
+    height: 21px;
+    margin-left: 170px;
+    margin-top: 160px;
 
-  font-size: 14px;
-  line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 
-  letter-spacing: 0.03em;
-  color: var(--color-text6);
-  text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--color-text6);
+    text-decoration: none;
 }
 .tel-footer-portfolio {
-  width: 231px;
-  height: 21px;
-  margin-left: 130px;
-  margin-top: 160px;
+    width: 231px;
+    height: 21px;
+    margin-left: 130px;
+    margin-top: 160px;
 
-  font-size: 14px;
-  line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 
-  letter-spacing: 0.03em;
-  color: var(--color-text6);
-  text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--color-text6);
+    text-decoration: none;
 }
 .footer-li {
-  list-style: none;
+    list-style: none;
 }
 .see-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+.project {
+    list-style: none;
 }
 
-.project {
-  list-style: none;
-}
-.my-portfolio {
-  background-color: var(--background-color);
-  border: 1px solid var(--border-color1);
-  margin-top: 20px;
+.card {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color1);
+    margin-top: 20px;
+    margin-left: 15px;
 }
 .portfolio-text {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 .footer-portfolio {
-  width: 1603px;
-  height: 252px;
-  margin-left: 0px;
+    width: 1603px;
+    height: 252px;
+    margin-left: 0px;
 
-  background-color: var(--background-color1);
+    background-color: var(--background-color1);
 }
 .section-portfolio {
-  background-color: var(--background-color);
-  height: 1360px;
-  width: 1602px;
-  padding-top: 80px;
+    background-color: var(--background-color);
+    height: 1360px;
+    width: 1602px;
+    padding-top: 80px;
 }
 .footer-element {
-  padding-top: 40px;
+    padding-top: 40px;
 }
 .footer-elements {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 .mail-element {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 .footer-elements-portfolio {
-  margin-top: 20px;
+    margin-top: 20px;
 
-  margin-left: 40px;
+    margin-left: 40px;
 }
